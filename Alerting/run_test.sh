@@ -18,7 +18,8 @@ fails=0
 echo "--------------------------------------------------"
 for test in `ls $1/tests/*.json`; do
 echo "Running test $test"
-python run_test.py --test_file $test --user $username --password $password
+python3 run_test.py --test_file $test --user $username --password $password
+sleep 5
 if [ $? -eq 0 ]; then
 let pass=pass+1
 else

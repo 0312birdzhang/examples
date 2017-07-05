@@ -77,12 +77,12 @@
   },
   "condition": {
     "script": {
-      "id": "condition"
+      "id": "monitoring_cluster_health_condition"
     }
   },
   "transform":{
       "script":{
-        "id":"transform"
+        "id":"monitoring_cluster_health_transform"
       }
   },
   "actions": {

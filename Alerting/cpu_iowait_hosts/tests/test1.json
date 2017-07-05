@@ -7,8 +7,8 @@
   "comments":"Functional test only",
   "watch_file":"./cpu_iowait_hosts/watch.json",
   "scripts":[{"name":"calculate_iowait","path":"./cpu_iowait_hosts/scripts/calculate_iowait.json"},
-    {"name":"condition","path":"./cpu_iowait_hosts/scripts/condition.json"},
-    {"name":"transform","path":"./cpu_iowait_hosts/scripts/transform.json"}],
+    {"name":"cpu_iowait_hosts_condition","path":"./cpu_iowait_hosts/scripts/cpu_iowait_hosts_condition.json"},
+    {"name":"cpu_iowait_hosts_transform","path":"./cpu_iowait_hosts/scripts/cpu_iowait_hosts_transform.json"}],
     "events":[
     {
       "offset":-120,

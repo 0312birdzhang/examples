@@ -64,7 +64,7 @@
   "throttle_period": "15m",
   "condition": {
     "script": {
-      "id": "condition"
+      "id": "twitter_trends_condition"
     }
   },
   "actions": {

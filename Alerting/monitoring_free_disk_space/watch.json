@@ -63,12 +63,12 @@
   "throttle_period": "30m",
   "condition": {
     "script": {
-      "id": "condition"
+      "id": "monitoring_free_disk_space_condition"
     }
   },
   "transform": {
     "script": {
-      "id": "transform"
+      "id": "monitoring_free_disk_space_transform"
     }
   },
   "actions": {

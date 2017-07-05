@@ -69,14 +69,14 @@
     },
     "condition": {
         "script": {
-            "id":"condition"
+            "id":"cpu_iowait_hosts_condition"
         }
     },
     "actions": {
         "log": {
             "transform": {
                 "script": {
-                    "id":"transform"
+                    "id":"cpu_iowait_hosts_transform"
                 }
             },
 	    "logging": {

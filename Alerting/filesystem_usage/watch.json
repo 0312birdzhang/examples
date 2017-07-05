@@ -68,7 +68,7 @@
   },
   "transform": {
     "script": {
-      "id":"transform"
+      "id":"filesystem_usage_transform"
     }
   },
   "actions": {

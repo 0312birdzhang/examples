@@ -58,7 +58,7 @@
   },
   "condition": {
     "script": {
-      "id": "condition"
+      "id": "system_fails_to_provide_condition"
     }
   },
   "throttle_period": "5m",
@@ -66,7 +66,7 @@
     "log": {
       "transform": {
       "script": {
-        "id":"transform"
+        "id":"system_fails_to_provide_transform"
       }
     },
       "logging": {

@@ -23,7 +23,7 @@
                     "script_fields": {
                       "upper_time": {
                         "script": {
-                          "id": "upper_time",
+                          "id": "lateral_movement_in_user_upper_time",
                           "params": {
                             "current_time": "{{ctx.trigger.triggered_time}}"
                           }
@@ -31,7 +31,7 @@
                       },
                       "lower_time": {
                         "script": {
-                          "id": "lower_time",
+                          "id": "lateral_movement_in_user_lower_time",
                           "params": {
                             "current_time": "{{ctx.trigger.triggered_time}}"
                           }
@@ -128,12 +128,12 @@
     },
     "condition": {
       "script": {
-        "id":"condition"
+        "id":"lateral_movement_in_user_condition"
       }
     },
     "transform": {
       "script": {
-        "id":"transform"
+        "id":"lateral_movement_in_user_transform"
       }
     },
     "actions": {

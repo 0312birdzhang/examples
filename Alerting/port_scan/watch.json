@@ -73,7 +73,7 @@
   "throttle_period": "1m",
   "condition": {
     "script": {
-      "id": "condition"
+      "id": "port_scan_condition"
     }
   },
   "actions": {

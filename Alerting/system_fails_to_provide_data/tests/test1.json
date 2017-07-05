@@ -5,7 +5,7 @@
   "type": "log",
   "match": true,
   "watch_file": "./system_fails_to_provide_data/watch.json",
-  "scripts":[{"name":"transform","path":"./system_fails_to_provide_data/scripts/transform.json"},{"name":"condition","path":"./system_fails_to_provide_data/scripts/condition.json"}],
+  "scripts":[{"name":"system_fails_to_provide_transform","path":"./system_fails_to_provide_data/scripts/system_fails_to_provide_transform.json"},{"name":"system_fails_to_provide_condition","path":"./system_fails_to_provide_data/scripts/system_fails_to_provide_condition.json"}],
   "events": [
     {
       "offset": -360,

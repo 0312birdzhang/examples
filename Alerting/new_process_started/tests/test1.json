@@ -5,7 +5,7 @@
   "type":"log",
   "match": true,
   "watch_file":"./new_process_started/watch.json",
-  "scripts":[{"name":"transform","path":"./new_process_started/scripts/transform.json"},{"name":"condition","path":"./new_process_started/scripts/condition.json"}],
+  "scripts":[{"name":"new_process_started_transform","path":"./new_process_started/scripts/transform.json"},{"name":"new_process_started_condition","path":"./new_process_started/scripts/condition.json"}],
   "events":[
   {
     "offset":-600,

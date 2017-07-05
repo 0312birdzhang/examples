@@ -107,12 +107,12 @@
   },
   "condition": {
     "script": {
-      "id":"condition"
+      "id":"new_process_started_condition"
     }
   },
   "transform": {
     "script": {
-      "id":"transform"
+      "id":"new_process_started_transform"
     }
   },
   "actions": {
